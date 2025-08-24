@@ -1,0 +1,221 @@
+body[dir='rtl'] {
+    .extra-info {
+        transform: translateX(-100%);
+
+        &.active {
+            transform: translateX(0) !important;
+        }
+    }
+
+    &.mobile-menu-visible {
+        .mobile-menu {
+            transform: translateX(0%) !important;
+        }
+    }
+
+    .mobile-menu {
+        transform: translateX(-101%);
+    }
+
+    .btn {
+        &:after {
+            transform: rotateY(180deg);
+        }
+    }
+
+    i {
+        &:before {
+            transform: rotateY(180deg);
+        }
+    }
+
+    .choose-content {
+        .play-btn {
+            i {
+                &:after {
+                    inset-inline-start: unset;
+                    inset-inline-end: 50% !important;
+                }
+            }
+        }
+    }
+
+    .bd-inner-wrap {
+        .thumb {
+            .play-btn {
+                &:after {
+                    inset-inline-start: unset;
+                    inset-inline-end: 50% !important;
+                }
+            }
+        }
+    }
+
+    .testimonial-nav-two {
+        .slick-prev {
+            transform: rotate(180deg);
+        }
+
+        .slick-next {
+            transform: rotate(180deg);
+        }
+    }
+
+    .testimonial-nav,
+    .testimonial-nav-three {
+        .slick-prev {
+            transform: rotate(0deg);
+        }
+
+        .slick-next {
+            transform: rotate(180deg);
+        }
+    }
+
+    .pricing-box-two {
+        .popular {
+            border-radius: 0 30px 30px 0;
+        }
+    }
+
+    .newsletter-form {
+        button {
+            inset-inline-end: unset;
+            inset-inline-start: 0;
+        }
+    }
+
+    .header-style-two {
+        .navbar-wrap {
+            margin: 0 60px 0 0;
+        }
+    }
+
+    .circle-content {
+        transform: translate(50%, -50%);
+    }
+
+    .project-thumb-four {
+        .project-link {
+            inset-inline-start: 42%;
+        }
+    }
+
+    .project-thumb-four {
+        img {
+            width: 100%;
+        }
+    }
+
+    .services-thumb {
+        .btn {
+            inset-inline-start: unset;
+            inset-inline-end: 50%;
+        }
+    }
+
+    .about-img-wrap-three {
+        .experience-wrap {
+            padding: 40px 45px 50px 195px;
+        }
+    }
+
+    .project-content-two {
+        .link-btn {
+            transform: rotate(180deg);
+        }
+    }
+
+    .about-img-wrap {
+        img {
+            &:nth-child(2) {
+                transform: translateX(50%);
+            }
+        }
+    }
+
+    .about-img-two {
+        .main-img {
+            .play-btn {
+                transform: translate(50%, -50%);
+
+                &:after {
+                    inset-inline-start: -50%;
+                }
+            }
+        }
+    }
+
+    .project-item {
+        .project-content {
+            .link-arrow {
+                svg {
+                    transform: rotateY(180deg);
+                }
+            }
+        }
+    }
+
+    .pricing-box {
+        .popular-tag {
+            transform: translateX(50%);
+        }
+    }
+
+    .blog-post-content {
+        .link-btn {
+            i {
+                transform: rotateY(180deg);
+            }
+        }
+    }
+
+    .navbar-wrap {
+        ul {
+            &.sub-menu {
+                li {
+                    &.menu-item-has-children {
+                        > a {
+                            &:after {
+                                transform: rotateY(180deg);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header-style-two {
+        .action-header-style-1:not(:last-child) {
+            ul {
+                border-left: 1px solid #d9d9d9;
+                border-right: unset;
+                height: 100%;
+            }
+        }
+
+        .menu-area {
+            padding: 0 30px 0 0;
+        }
+    }
+
+    .navbar-wrap {
+        > ul {
+            > li {
+                a {
+                    padding-inline-start: 2.5rem;
+                }
+
+                &.menu-item-has-children {
+                    > a {
+                        &:after {
+                            position: absolute;
+                            margin-inline-start: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

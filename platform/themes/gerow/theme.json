@@ -1,0 +1,10 @@
+{
+    "id": "botble/gerow",
+    "name": "Gerow",
+    "namespace": "Theme\\Gerow\\",
+    "author": "Botble",
+    "url": "https://gerow.botble.com",
+    "version": "1.0.0",
+    "description": "Gerow - Business Consulting",
+    "required_plugins": []
+}
